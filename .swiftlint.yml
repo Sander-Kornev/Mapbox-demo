@@ -1,0 +1,38 @@
+excluded:
+- Pods
+
+#included:
+#- Mapbox-demo
+
+disabled_rules:
+- trailing_whitespace
+- force_cast
+#- identifier_name
+#- function_parameter_count
+#- nesting
+#- weak_delegate
+#- type_name
+#- type_body_length
+
+identifier_name:
+  min_length: # only min_length
+    warning: 1
+    error: 1 # only error
+  excluded: # excluded via string array
+line_length:
+  warning: 400
+  error: 500
+file_length:
+  warning: 400
+  error: 800
+function_body_length:
+  warning: 60
+  error: 120
+cyclomatic_complexity:
+  ignores_case_statements: true
+  warning: 10
+  error: 15
+
+warning_threshold: 10
+
+reporter: "xcode"

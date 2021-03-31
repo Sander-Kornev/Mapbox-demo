@@ -3,27 +3,63 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		C505DFDD261346B1009CDCA9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C505DFDC261346B1009CDCA9 /* AppDelegate.swift */; };
 		C505DFDF261346B1009CDCA9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C505DFDE261346B1009CDCA9 /* SceneDelegate.swift */; };
-		C505DFE1261346B1009CDCA9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C505DFE0261346B1009CDCA9 /* ViewController.swift */; };
-		C505DFE4261346B1009CDCA9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C505DFE2261346B1009CDCA9 /* Main.storyboard */; };
 		C505DFE6261346B4009CDCA9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C505DFE5261346B4009CDCA9 /* Assets.xcassets */; };
 		C505DFE9261346B4009CDCA9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C505DFE7261346B4009CDCA9 /* LaunchScreen.storyboard */; };
+		C505E00726135BD1009CDCA9 /* MapFlowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C505E00626135BD1009CDCA9 /* MapFlowController.swift */; };
+		C505E00B26135BFE009CDCA9 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C505E00A26135BFE009CDCA9 /* MapViewController.swift */; };
+		C505E01026135DDD009CDCA9 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C505E00F26135DDD009CDCA9 /* UIView+Extension.swift */; };
+		C505E01626135EAD009CDCA9 /* Subject+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C505E01526135EAD009CDCA9 /* Subject+Extension.swift */; };
+		C505E01B26135FA5009CDCA9 /* MapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C505E01A26135FA5009CDCA9 /* MapViewModel.swift */; };
+		C505E01F26135FB3009CDCA9 /* MapBoxViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C505E01E26135FB3009CDCA9 /* MapBoxViewModel.swift */; };
+		C505E022261362BD009CDCA9 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C505E021261362BD009CDCA9 /* APIManager.swift */; };
+		C505E025261365F3009CDCA9 /* APIRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C505E024261365F2009CDCA9 /* APIRequest.swift */; };
+		C505E029261376A8009CDCA9 /* URLQueryItem+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C505E028261376A8009CDCA9 /* URLQueryItem+Extension.swift */; };
+		C505E02E26137A94009CDCA9 /* Optional+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C505E02D26137A94009CDCA9 /* Optional+Extension.swift */; };
+		C505E03A261380CE009CDCA9 /* APIRequest+Markers.swift in Sources */ = {isa = PBXBuildFile; fileRef = C505E039261380CE009CDCA9 /* APIRequest+Markers.swift */; };
+		C505E03E26138247009CDCA9 /* MapPoi.swift in Sources */ = {isa = PBXBuildFile; fileRef = C505E03D26138247009CDCA9 /* MapPoi.swift */; };
+		C505E04226139090009CDCA9 /* MapPoi+Mapbox.swift in Sources */ = {isa = PBXBuildFile; fileRef = C505E04126139090009CDCA9 /* MapPoi+Mapbox.swift */; };
+		C505E0482613CB8C009CDCA9 /* MapPoiDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C505E0472613CB8C009CDCA9 /* MapPoiDetailsViewController.swift */; };
+		C505E04E2613CCCD009CDCA9 /* SingleLabelTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C505E04C2613CCCD009CDCA9 /* SingleLabelTableViewCell.swift */; };
+		C505E04F2613CCCD009CDCA9 /* SingleLabelTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C505E04D2613CCCD009CDCA9 /* SingleLabelTableViewCell.xib */; };
+		C5A1EDCE261466CC00E62B4B /* WebViewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5A1EDCC261466CC00E62B4B /* WebViewTableViewCell.swift */; };
+		C5A1EDCF261466CC00E62B4B /* WebViewTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C5A1EDCD261466CC00E62B4B /* WebViewTableViewCell.xib */; };
+		F6ED348A6BF13F330CF716A8 /* Pods_Mapbox_demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F4E8A06D4EE3A7D8C483024E /* Pods_Mapbox_demo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AEE9B06E7D6174407F6CFEBF /* Pods-Mapbox-demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mapbox-demo.debug.xcconfig"; path = "Target Support Files/Pods-Mapbox-demo/Pods-Mapbox-demo.debug.xcconfig"; sourceTree = "<group>"; };
+		AFBE792CE3896D8EA30A71A4 /* Pods-Mapbox-demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Mapbox-demo.release.xcconfig"; path = "Target Support Files/Pods-Mapbox-demo/Pods-Mapbox-demo.release.xcconfig"; sourceTree = "<group>"; };
 		C505DFD9261346B1009CDCA9 /* Mapbox-demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mapbox-demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C505DFDC261346B1009CDCA9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C505DFDE261346B1009CDCA9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C505DFE0261346B1009CDCA9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		C505DFE3261346B1009CDCA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C505DFE5261346B4009CDCA9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C505DFE8261346B4009CDCA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C505DFEA261346B4009CDCA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C505E00626135BD1009CDCA9 /* MapFlowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapFlowController.swift; sourceTree = "<group>"; };
+		C505E00A26135BFE009CDCA9 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		C505E00F26135DDD009CDCA9 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		C505E01526135EAD009CDCA9 /* Subject+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Subject+Extension.swift"; sourceTree = "<group>"; };
+		C505E01A26135FA5009CDCA9 /* MapViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewModel.swift; sourceTree = "<group>"; };
+		C505E01E26135FB3009CDCA9 /* MapBoxViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapBoxViewModel.swift; sourceTree = "<group>"; };
+		C505E021261362BD009CDCA9 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		C505E024261365F2009CDCA9 /* APIRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIRequest.swift; sourceTree = "<group>"; };
+		C505E028261376A8009CDCA9 /* URLQueryItem+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "URLQueryItem+Extension.swift"; sourceTree = "<group>"; };
+		C505E02D26137A94009CDCA9 /* Optional+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Optional+Extension.swift"; sourceTree = "<group>"; };
+		C505E039261380CE009CDCA9 /* APIRequest+Markers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "APIRequest+Markers.swift"; sourceTree = "<group>"; };
+		C505E03D26138247009CDCA9 /* MapPoi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapPoi.swift; sourceTree = "<group>"; };
+		C505E04126139090009CDCA9 /* MapPoi+Mapbox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MapPoi+Mapbox.swift"; sourceTree = "<group>"; };
+		C505E0472613CB8C009CDCA9 /* MapPoiDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapPoiDetailsViewController.swift; sourceTree = "<group>"; };
+		C505E04C2613CCCD009CDCA9 /* SingleLabelTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleLabelTableViewCell.swift; sourceTree = "<group>"; };
+		C505E04D2613CCCD009CDCA9 /* SingleLabelTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SingleLabelTableViewCell.xib; sourceTree = "<group>"; };
+		C5A1EDCC261466CC00E62B4B /* WebViewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewTableViewCell.swift; sourceTree = "<group>"; };
+		C5A1EDCD261466CC00E62B4B /* WebViewTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WebViewTableViewCell.xib; sourceTree = "<group>"; };
+		F4E8A06D4EE3A7D8C483024E /* Pods_Mapbox_demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Mapbox_demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +67,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F6ED348A6BF13F330CF716A8 /* Pods_Mapbox_demo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		383772A471E51C61B522FF58 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F4E8A06D4EE3A7D8C483024E /* Pods_Mapbox_demo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C505DFD0261346B1009CDCA9 = {
 			isa = PBXGroup;
 			children = (
 				C505DFDB261346B1009CDCA9 /* Mapbox-demo */,
 				C505DFDA261346B1009CDCA9 /* Products */,
+				E1930CBB4FF15362F483A696 /* Pods */,
+				383772A471E51C61B522FF58 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +103,136 @@
 		C505DFDB261346B1009CDCA9 /* Mapbox-demo */ = {
 			isa = PBXGroup;
 			children = (
+				C505E00426135B9F009CDCA9 /* API */,
 				C505DFDC261346B1009CDCA9 /* AppDelegate.swift */,
-				C505DFDE261346B1009CDCA9 /* SceneDelegate.swift */,
-				C505DFE0261346B1009CDCA9 /* ViewController.swift */,
-				C505DFE2261346B1009CDCA9 /* Main.storyboard */,
 				C505DFE5261346B4009CDCA9 /* Assets.xcassets */,
-				C505DFE7261346B4009CDCA9 /* LaunchScreen.storyboard */,
+				C505E00E26135D8A009CDCA9 /* Category */,
+				C505E03C26138219009CDCA9 /* DataModels */,
 				C505DFEA261346B4009CDCA9 /* Info.plist */,
+				C505DFE7261346B4009CDCA9 /* LaunchScreen.storyboard */,
+				C505DFDE261346B1009CDCA9 /* SceneDelegate.swift */,
+				C505E00326135B87009CDCA9 /* UI */,
 			);
 			path = "Mapbox-demo";
+			sourceTree = "<group>";
+		};
+		C505E00326135B87009CDCA9 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				C505E00526135BB0009CDCA9 /* MapFlow */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		C505E00426135B9F009CDCA9 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				C505E021261362BD009CDCA9 /* APIManager.swift */,
+				C505E024261365F2009CDCA9 /* APIRequest.swift */,
+				C505E039261380CE009CDCA9 /* APIRequest+Markers.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		C505E00526135BB0009CDCA9 /* MapFlow */ = {
+			isa = PBXGroup;
+			children = (
+				C505E04B2613CCA0009CDCA9 /* Cells */,
+				C505E04426139862009CDCA9 /* ViewController */,
+				C505E01926135F1B009CDCA9 /* ViewModels */,
+				C505E00626135BD1009CDCA9 /* MapFlowController.swift */,
+			);
+			path = MapFlow;
+			sourceTree = "<group>";
+		};
+		C505E00E26135D8A009CDCA9 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				C505E02C26137A7E009CDCA9 /* Optional */,
+				C505E0272613768A009CDCA9 /* URL */,
+				C505E01426135E82009CDCA9 /* Combine */,
+				C505E01226135E7C009CDCA9 /* UI */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		C505E01226135E7C009CDCA9 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				C505E00F26135DDD009CDCA9 /* UIView+Extension.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		C505E01426135E82009CDCA9 /* Combine */ = {
+			isa = PBXGroup;
+			children = (
+				C505E01526135EAD009CDCA9 /* Subject+Extension.swift */,
+			);
+			path = Combine;
+			sourceTree = "<group>";
+		};
+		C505E01926135F1B009CDCA9 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				C505E01A26135FA5009CDCA9 /* MapViewModel.swift */,
+				C505E01E26135FB3009CDCA9 /* MapBoxViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		C505E0272613768A009CDCA9 /* URL */ = {
+			isa = PBXGroup;
+			children = (
+				C505E028261376A8009CDCA9 /* URLQueryItem+Extension.swift */,
+			);
+			path = URL;
+			sourceTree = "<group>";
+		};
+		C505E02C26137A7E009CDCA9 /* Optional */ = {
+			isa = PBXGroup;
+			children = (
+				C505E02D26137A94009CDCA9 /* Optional+Extension.swift */,
+			);
+			path = Optional;
+			sourceTree = "<group>";
+		};
+		C505E03C26138219009CDCA9 /* DataModels */ = {
+			isa = PBXGroup;
+			children = (
+				C505E03D26138247009CDCA9 /* MapPoi.swift */,
+				C505E04126139090009CDCA9 /* MapPoi+Mapbox.swift */,
+			);
+			path = DataModels;
+			sourceTree = "<group>";
+		};
+		C505E04426139862009CDCA9 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C505E00A26135BFE009CDCA9 /* MapViewController.swift */,
+				C505E0472613CB8C009CDCA9 /* MapPoiDetailsViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		C505E04B2613CCA0009CDCA9 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				C505E04C2613CCCD009CDCA9 /* SingleLabelTableViewCell.swift */,
+				C505E04D2613CCCD009CDCA9 /* SingleLabelTableViewCell.xib */,
+				C5A1EDCC261466CC00E62B4B /* WebViewTableViewCell.swift */,
+				C5A1EDCD261466CC00E62B4B /* WebViewTableViewCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		E1930CBB4FF15362F483A696 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AEE9B06E7D6174407F6CFEBF /* Pods-Mapbox-demo.debug.xcconfig */,
+				AFBE792CE3896D8EA30A71A4 /* Pods-Mapbox-demo.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +242,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C505DFED261346B4009CDCA9 /* Build configuration list for PBXNativeTarget "Mapbox-demo" */;
 			buildPhases = (
+				4457414F278510094166AA46 /* [CP] Check Pods Manifest.lock */,
 				C505DFD5261346B1009CDCA9 /* Sources */,
 				C505DFD6261346B1009CDCA9 /* Frameworks */,
 				C505DFD7261346B1009CDCA9 /* Resources */,
+				81B002D607AB96F99E9E156B /* [CP] Embed Pods Frameworks */,
+				C5A1EDD62614906100E62B4B /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -125,35 +296,102 @@
 			buildActionMask = 2147483647;
 			files = (
 				C505DFE9261346B4009CDCA9 /* LaunchScreen.storyboard in Resources */,
+				C5A1EDCF261466CC00E62B4B /* WebViewTableViewCell.xib in Resources */,
 				C505DFE6261346B4009CDCA9 /* Assets.xcassets in Resources */,
-				C505DFE4261346B1009CDCA9 /* Main.storyboard in Resources */,
+				C505E04F2613CCCD009CDCA9 /* SingleLabelTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4457414F278510094166AA46 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Mapbox-demo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		81B002D607AB96F99E9E156B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Mapbox-demo/Pods-Mapbox-demo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Mapbox-demo/Pods-Mapbox-demo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Mapbox-demo/Pods-Mapbox-demo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C5A1EDD62614906100E62B4B /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C505DFD5261346B1009CDCA9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C505DFE1261346B1009CDCA9 /* ViewController.swift in Sources */,
+				C505E04226139090009CDCA9 /* MapPoi+Mapbox.swift in Sources */,
+				C5A1EDCE261466CC00E62B4B /* WebViewTableViewCell.swift in Sources */,
+				C505E00726135BD1009CDCA9 /* MapFlowController.swift in Sources */,
+				C505E01026135DDD009CDCA9 /* UIView+Extension.swift in Sources */,
 				C505DFDD261346B1009CDCA9 /* AppDelegate.swift in Sources */,
+				C505E03E26138247009CDCA9 /* MapPoi.swift in Sources */,
+				C505E04E2613CCCD009CDCA9 /* SingleLabelTableViewCell.swift in Sources */,
+				C505E0482613CB8C009CDCA9 /* MapPoiDetailsViewController.swift in Sources */,
+				C505E022261362BD009CDCA9 /* APIManager.swift in Sources */,
+				C505E01F26135FB3009CDCA9 /* MapBoxViewModel.swift in Sources */,
+				C505E02E26137A94009CDCA9 /* Optional+Extension.swift in Sources */,
+				C505E00B26135BFE009CDCA9 /* MapViewController.swift in Sources */,
+				C505E01B26135FA5009CDCA9 /* MapViewModel.swift in Sources */,
+				C505E01626135EAD009CDCA9 /* Subject+Extension.swift in Sources */,
+				C505E025261365F3009CDCA9 /* APIRequest.swift in Sources */,
 				C505DFDF261346B1009CDCA9 /* SceneDelegate.swift in Sources */,
+				C505E029261376A8009CDCA9 /* URLQueryItem+Extension.swift in Sources */,
+				C505E03A261380CE009CDCA9 /* APIRequest+Markers.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		C505DFE2261346B1009CDCA9 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C505DFE3261346B1009CDCA9 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		C505DFE7261346B4009CDCA9 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -283,6 +521,7 @@
 		};
 		C505DFEE261346B4009CDCA9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AEE9B06E7D6174407F6CFEBF /* Pods-Mapbox-demo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -302,6 +541,7 @@
 		};
 		C505DFEF261346B4009CDCA9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AFBE792CE3896D8EA30A71A4 /* Pods-Mapbox-demo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
